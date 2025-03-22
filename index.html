@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Premium Clothes Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white shadow-md p-4 flex justify-between items-center">
+        <h1 class="text-xl font-bold">Premium Clothes Center</h1>
+        <ul class="flex space-x-6">
+            <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#products" class="hover:text-blue-600">Products</a></li>
+            <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+    </nav>
+        <header id="home" class="h-96 bg-cover bg-center flex items-center justify-center text-black" style="background-image: url('images/b1.png');">
+            <h2 class="text-4xl font-bold bg-black bg-opacity-50 p-4 rounded">Exclusive Fashion for Everyone</h2>
+        </header>
+        
+        <section id="products" class="p-8">
+            <h2 class="text-3xl font-bold text-center mb-6 bg-cover bg-center text-black p-4 rounded" style="background-image: url('https://source.unsplash.com/1600x400/?clothing,store');">Our Collection</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="bg-white p-4 shadow-md rounded-md">
+                    <img src="images/shirt.png" class="w-full h-60 object-cover rounded" alt="Shirt">
+                    <h3 class="text-lg font-bold mt-4">Stylish Shirt</h3>
+                    <p class="text-gray-600">$49.99</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md">
+                    <img src="images/jacket.png" class="w-full h-60 object-cover rounded" alt="Jacket">
+                    <h3 class="text-lg font-bold mt-4">Premium Jacket</h3>
+                    <p class="text-gray-600">$79.99</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md">
+                    <img src="images/shoe.png" class="w-full h-60 object-cover rounded" alt="Shoes">
+                    <h3 class="text-lg font-bold mt-4">Luxury Shoes</h3>
+                    <p class="text-gray-600">$99.99</p>
+                </div>
+            </div>
+        </section>
+        
+    
+    
+    <section id="contact" class="p-8 bg-gray-200">
+        <h2 class="text-3xl font-bold text-center mb-6">Get in Touch</h2>
+        <form class="max-w-lg mx-auto bg-white p-6 shadow-md rounded-md">
+            <input type="text" placeholder="Your Name" class="w-full p-2 border rounded mb-4">
+            <input type="email" placeholder="Your Email" class="w-full p-2 border rounded mb-4">
+            <textarea placeholder="Your Message" class="w-full p-2 border rounded mb-4"></textarea>
+            <button class="w-full bg-blue-600 text-white p-2 rounded">Send Message</button>
+        </form>
+    </section>
+    
+    <footer class="text-center p-4 bg-white shadow-md mt-6">© 2025 Premium Clothes Center. All Rights Reserved.</footer>
+</body>
+</html>
